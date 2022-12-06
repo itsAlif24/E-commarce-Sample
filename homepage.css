@@ -1,0 +1,170 @@
+/* Navbar */
+.Navbar_section{
+    box-shadow: 5px 10px rgba(0,0,0,.1)
+}
+.navbar{
+    list-style: none;
+    padding: 0.8%;
+}
+
+.navbar li{
+    display: inline;
+    padding: 1.8%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    margin: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: rgb(49, 135, 216);
+    padding: auto;
+}
+
+.navbar li a:hover{
+    color: beige;
+}
+
+.Navbar_section{
+    padding: auto;
+    display: block;
+}
+
+/* Logo */
+.logo{
+    height: 40px;
+    width: 80px;
+}
+
+/* Search input and button */
+#search{
+    width: 250px;
+    border: 1px solid rgb(49, 135, 216);
+    border-radius: 30px;
+    padding: 8px;
+}
+
+#searchinput{
+    padding: 6px;
+    height: 35px;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(49, 135, 216);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+}
+
+#searchbutton{
+    padding: 2px;
+    color: rgb(49, 135, 216);
+    cursor: pointer;
+}
+
+#searchbutton:hover{
+    color: beige;
+}
+
+
+/* Homo Moto */
+.moto{
+    background-image: url(img/background1.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: none;
+}
+
+.moto h1{
+    color: beige;
+    font-size: 60px;
+    padding: 3%;
+}
+
+.moto span{
+    color: beige;
+    padding: 5%;
+    float: left;
+}
+
+/* Button */
+.gobutton{
+    border: 2px solid black;
+    padding: 1%;
+    background-color: rgb(49, 135, 216);
+    border: none;
+    border-radius: 30px;
+    margin-left: 43%;
+    margin-right: 43%;
+}
+
+.gobutton a{
+    text-decoration: none;
+    color: beige;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+}
+
+.gobutton:hover{
+    background-color: beige;
+}
+
+.gobutton a:hover{
+    color: rgb(49, 135, 216);
+}
+
+/* Good Shoping */
+.shopingcart{
+    background-color: rgb(190, 186, 186);
+    padding: 1%;
+    color: rgb(49, 135, 216);
+    font-size: 60px;
+    text-align: center;
+}
+
+.carlogo{
+    height: 200px;
+    width: 250px;
+}
+
+/* Get Your Gift */
+#discountmoto{
+    background-color: rgb(190, 186, 186);
+    padding: 1%;
+    color: rgb(49, 135, 216);
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Contact */
+#contact{
+    background-color: rgb(190, 186, 186);
+    padding: 1%;
+    color: rgb(49, 135, 216);
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(49, 135, 216);
+    color: beige;
+    padding: 1.5%;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: rgb(126, 62, 62);
+}
